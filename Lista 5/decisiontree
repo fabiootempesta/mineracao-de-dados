@@ -1,0 +1,42 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
+from classifier import Classifier
+
+
+class DecisionTree(Classifier):
+
+    def __init__(self, csv_file):
+        Classifier.__init__(self, csv_file)
+        self._tree = None
+
+    def _split(self,data,att):
+        '''
+        Retorna os dados de data com atributo=att e retira eles de data
+        '''
+
+
+    def _entropy(self,data):
+        '''
+        Calcula a entropia dos registros de data
+        '''
+
+    def _impurity(self, att, div_dict):
+        '''
+        Calcula a impureza do particionamento div_dict (criado usando att), o particionamento pode ser um dicionário valor: registros com att=valor
+        '''
+
+    def _get_best_att(self,data):
+        '''
+        Seleciona atributo com melhor ganho de informação para particionar os registros de data
+        '''
+
+    def _build_tree(self,data):
+        '''
+        Cria a árvore (recursivamente) sobre os registros de data
+        '''
+
+    def print_tree(self):
+        '''
+        Imprime a estrutura da árvore
+        '''

@@ -1,0 +1,15 @@
+Aparência, Temperatura, Humidade,   Vento, Jogo
+      sol,      quente,     alta,   falso,  não
+      sol,      quente,     alta, verdade,  não
+encoberto,      quente,     alta,   falso,  sim
+  chuvoso,   agradável,     alta,   falso,  sim
+  chuvoso,        frio,   normal,   falso,  sim
+  chuvoso,        frio,   normal, verdade,  não
+encoberto,        frio,   normal, verdade,  sim
+      sol,   agradável,     alta,   falso,  não
+      sol,        frio,   normal,   falso,  sim
+  chuvoso,   agradável,   normal,   falso,  sim
+      sol,   agradável,   normal, verdade,  sim
+encoberto,   agradável,     alta, verdade,  sim
+encoberto,      quente,   normal,   falso,  sim
+  chuvoso,   agradável,     alta, verdade,  não
